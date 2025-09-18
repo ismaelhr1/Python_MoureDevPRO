@@ -44,7 +44,7 @@ print(my_other_list)
 my_list.remove(12) # Elimina el primer 12 que encuentra, al haber dos, solamente elimina uno
 print(my_list)
 
-print(my_list.pop()) # Elimina el ultimo elemeno de la lista
+print(my_list.pop()) # Elimina el ultimo elemento de la lista
 print(my_list)
 
 print(my_list.pop(2)) # Elimina el elemento numero dos de la lista(las posiciones empiezan por 0,1,2,3,4,5)
