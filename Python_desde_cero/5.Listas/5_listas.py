@@ -23,6 +23,8 @@ print(my_list.count(12))
 #print(my_other_list[4]) IndexError
 #print(my_other_list[-5]) IndexError
 
+print(my_other_list.index("Ismael"))
+
 edad, estatura, nombre, apellido = my_other_list
 print(nombre)
 
