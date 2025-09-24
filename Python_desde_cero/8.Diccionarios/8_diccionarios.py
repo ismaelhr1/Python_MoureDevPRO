@@ -39,7 +39,7 @@ print(my_dict)
 print("Hernandez" in my_dict)
 print("Apellido" in my_dict)  # Va a buscar siempre por la clave no por el valor, por eso al buscar "Hernandez" indica False
 
-print(my_dict.items()) # Se obtiene un listado con cada uno de los items
+print(my_dict.items()) # Se obtiene un listado con cada uno de los items (clave-valor)
 print(my_dict.keys()) # Se obtiene solo las claves
 print(my_dict.values()) # Se obtienen solo los valores
 
